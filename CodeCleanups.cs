@@ -16,7 +16,7 @@ namespace KattisCsharp
         }
     }
 
-    class CodeCleanups
+    public class CodeCleanups
     {
         public static void CodeCleanupsP()
         {

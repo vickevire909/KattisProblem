@@ -1,8 +1,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace KattisCsharp
 {
@@ -22,7 +20,7 @@ namespace KattisCsharp
     {
         public static void CodeCleanupsP()
         {
-            Convert.ToInt32(Console.ReadLine());
+            int n = Convert.ToInt32(Console.ReadLine());
             List<DpDay> dpDays = Console.ReadLine().Split().Select(x => new DpDay(x, false)).ToList();
             int curDay = dpDays.Select(x => x.day).ToArray().Min();
             int sumOfDirt = 0;
